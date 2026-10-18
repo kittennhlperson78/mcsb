@@ -1,0 +1,76 @@
+button {
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Georgia;
+    background-color: 
+#6e6e6e;
+    color: 
+rgb(255, 255, 255);
+cursor: pointer;
+}
+
+button:active {
+transform: translateY(3px);
+}
+
+td {
+    padding: 10px;
+}
+ 
+
+h1 {
+    color: 
+rgb(202, 188, 184);
+    font-size: 50px;
+    font-family: Fixedsys;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.splash {
+position: relative;
+    bottom: 120px;
+    display: inline-block;
+    transform: rotate(-20deg);
+    color: yellow;
+    width: 400px;
+    height: 25px;
+    }
+.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 768px;
+    hight: 132px;
+    }
+.grey {
+    background-color: #2d2d2d;
+    }
+
+    button:disabled {            
+  cursor: not-allowed;      
+  pointer-events: none; 
+        color: #919191;
+}
+
+button:hover {
+    background-color: 
+#7d88be;
+    color: 
+#f1f6ce;
+}
+
+#fixed-bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -999; 
+}
+
